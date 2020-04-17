@@ -4,17 +4,25 @@ body {
     background-attachment: fixed;
 }
 
+/* This class is already present in Bootstrap navbar. No need to add maually */
 .navbar {
-    background: rgba(255,255,255,0.2) !important;
+    background: rgba(255,255,255,0.2) !important;  /* Give transparent white background to navbar */
+                                                   /* 0.2 to give little whitish effect. */
+                                                   /* Put 0 to get complete transperency */
     z-index: 2;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);                   /* Blur the background */
+                                                   /* 10px Gaussian Blur */
 }
 
+
+/* Add the rest of page in div with this class. Use this class accordingly. It is not necessary */
 .main-content {
     color: #fff;
     margin-top: 60px;
 }
 
+
+/* Below code in only needed if you have dropdown in navbar and want to change its fore and back colors */
 .navbar-nav > li > .dropdown-menu { 
     background-color: #000000; 
 }
