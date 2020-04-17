@@ -12,6 +12,7 @@ body {
     z-index: 2;
     backdrop-filter: blur(10px);                   /* Blur the background */
                                                    /* 10px Gaussian Blur */
+    -webkit-backdrop-filter: blur(10px);           /* Increases browser compability */
 }
 
 
