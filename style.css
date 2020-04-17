@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: rgba(255,255,255,0.2) !important;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+
+.main-content {
+    color: #fff;
+    margin-top: 60px;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #000000; 
+}
+
+.navbar-nav > li > .dropdown-menu > a{ 
+    color: white;
+}
