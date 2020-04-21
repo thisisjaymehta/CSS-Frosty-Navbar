@@ -10,9 +10,9 @@ body {
                                                    /* 0.2 to give little whitish effect. */
                                                    /* Put 0 to get complete transperency */
     z-index: 2;
-    backdrop-filter: blur(10px);                   /* Blur the background */
-                                                   /* 10px Gaussian Blur */
-    -webkit-backdrop-filter: blur(10px);           /* Increases browser compability */
+    backdrop-filter: blur(10px) saturate(125%);                   /* Blur the background */
+                                                                  /* 10px Gaussian Blur and saturate for fluent design */
+    -webkit-backdrop-filter: blur(10px) saturate(125%);           /* Increases browser compability (safari ios and mac) */
 }
 
 
