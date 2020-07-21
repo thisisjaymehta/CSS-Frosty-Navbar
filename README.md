@@ -1,4 +1,7 @@
 # CSS-Frosty-Navbar
+
+> See live preview at [Codepen](https://codepen.io/thisisjaymehta/pen/bGEOmJE)
+
 Give iOS like frost effect to your Bootstrap navbar
 
 ![Screenshot1](https://i.imgur.com/mwThwzM.png)
